@@ -53,13 +53,13 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-2 flex-row lg:flex-col">
-              <div className="bg-cold-blue w-full h-[273px] lg:w-[820px] lg:h-[430px]">
+              <div className="bg-cold-blue w-full h-[273px] lg:w-[55%] lg:h-[430px]">
                 ciao
               </div>
             </div>
           </div>
           <div className="flex gap-2 flex-col lg:flex-row justify-end">
-            <div className="bg-cold-blue lg:bg-[#4425B3] h-[273px] lg:w-[820px] lg:h-[430px] lg:-mt-[100px]">
+            <div className="bg-cold-blue lg:bg-[#4425B3] h-[273px] lg:w-[55%] lg:h-[430px] lg:-mt-[100px]">
               6
             </div>
           </div>
