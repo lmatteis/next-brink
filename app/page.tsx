@@ -23,6 +23,7 @@ export default function Home() {
           <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto">5</div>
         </div>
       </div>
+      <h2>Ciao</h2>
     </div>
   );
 }
