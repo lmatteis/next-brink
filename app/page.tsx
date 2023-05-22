@@ -1,15 +1,33 @@
 export default function Home() {
   return (
     <div>
-      <div className="flex overflow-auto gap-2 h-32">
-        <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0">
-          ciao
-        </div>
-        <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0">
-          ciao
+      <div className="mt-[230px] lg:mt-[270px] px-[10px] lg:px-[20px] mb-[40px]">
+        <div className="text-[21px] mb-3 lg:mb-5">Luctus vitae.</div>
+        <div className="text-[36px] lg:text-[84px] leading-[39px] lg:leading-[92px] w-4/5">
+          Utrum ut placerat nec, varius sit amet lacus.
         </div>
       </div>
-      <h2>Ciao</h2>
+      <div className="flex overflow-auto gap-2 h-[776px]">
+        <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0"></div>
+        <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0"></div>
+      </div>
+      <div className="mx-[10px] lg:mx-auto lg:w-3/6 mt-[100px] mb-[40px] lg:mb-[100px]">
+        <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] text-center mb-[40px]">
+          Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae.
+        </div>
+        <div className="text-[21px] leading-[33px] text-left flex flex-col gap-8">
+          <div>
+            Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae.
+            Quisque maximus ante sapien, at pharetra sem sagittis eu. Maecenas
+            nibh leo, interdum ac malesuada quis, tempus vel lacus.
+          </div>
+          <div>
+            Aliquam quis velit et nunc scelerisque auctor quis id lacus. Proin
+            sem turpis, rutrum ut placerat nec, varius sit amet lacus. Praesent
+            sed viverra lorem.
+          </div>
+        </div>
+      </div>
       <div className="flex gap-2 h-80 overflow-auto">
         <div className="flex gap-2 flex-row lg:flex-col flex-1">
           <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto">1</div>
