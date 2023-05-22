@@ -43,15 +43,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-black text-white">
-        <div className="flex gap-2 overflow-auto flex-col pt-[100px]">
-          <div className="flex gap-2 flex-col lg:flex-row">
-            <div className="text-[42px] leading-none flex-1">
+      <div className="bg-black text-white lg:px-[20px]">
+        <div className="flex gap-10 overflow-auto flex-col pt-[100px]">
+          <div className="flex gap-[35px] lg:gap-0 flex-col lg:flex-row mx-[10px] lg:mx-0">
+            <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] flex-1">
               <div className="mr-[200px]">
                 Proin enim enim, tincidunt consequat sollicitudin.
               </div>
             </div>
-            <div className="flex-1 text-[21px]">
+            <div className="flex-1 text-[21px] leading-[33px]">
               Aliquam vel orci pulvinar, porta velit in, volutpat neque. Nam vel
               leo nec nibh tempus congue. Morbi rhoncus bibendum enim sit amet
               pulvinar. Quisque lobortis commodo nunc, a rhoncus diam aliquam
@@ -59,10 +59,10 @@ export default function Home() {
               Nulla quis tincidunt turpis. Sed quis erat arcu.{" "}
             </div>
           </div>
-          <div className="flex gap-2 flex-col-reverse lg:flex-col">
-            <div className="flex gap-2 flex-col lg:flex-row flex-1">
+          <div className="flex gap-10 flex-col-reverse lg:flex-col">
+            <div className="flex gap-2 flex-col lg:flex-row flex-1 mx-[10px] lg:mx-0">
               <div className="flex-1 hidden lg:block"></div>
-              <div className="flex-1 text-[21px]">
+              <div className="flex-1 text-[21px] leading-[33px]">
                 Phasellus gravida felis quis ex mattis, sed suscipit tellus
                 tincidunt. In imperdiet dapibus vehicula. In auctor nec nibh
                 vestibulum ornare. Morbi porta, enim hendrerit consectetur
@@ -71,15 +71,19 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-2 flex-row lg:flex-col">
-              <div className="bg-cold-blue w-full h-[273px] lg:w-[55%] lg:h-[430px]">
-                ciao
-              </div>
+              <div className="bg-cold-blue w-full h-[273px] lg:w-[55%] lg:h-[430px]"></div>
             </div>
           </div>
           <div className="flex gap-2 flex-col lg:flex-row justify-end">
-            <div className="bg-cold-blue lg:bg-[#4425B3] h-[273px] lg:w-[55%] lg:h-[430px] lg:-mt-[100px]">
-              6
-            </div>
+            <div className="bg-cold-blue lg:bg-[#4425B3] h-[273px] lg:w-[55%] lg:h-[430px] lg:-mt-[110px]"></div>
+          </div>
+        </div>
+        <div className="border-[0.5px] border-white my-[100px]"></div>
+        <div className="flex flex-col-reverse lg:flex-row gap-10 px-[10px] pb-[100px]">
+          <div className="bg-cold-blue w-full h-[394px] lg:h-[440px]"></div>
+          <div className="bg-cold-blue w-full h-[394px] lg:h-[440px]"></div>
+          <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] ">
+            Proin enim enim, tincidunt consequat sollicitudin.
           </div>
         </div>
       </div>
