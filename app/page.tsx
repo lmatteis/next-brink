@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div className="font-suisse">
       <div className="mt-[230px] lg:mt-[270px] px-[10px] lg:px-[20px] mb-[40px]">
         <div className="text-[21px] mb-3 lg:mb-5">Luctus vitae.</div>
         <div className="text-[36px] lg:text-[84px] leading-[39px] lg:leading-[92px] w-4/5">
