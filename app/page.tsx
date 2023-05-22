@@ -1,16 +1,30 @@
 export default function Home() {
   return (
-    <div className="font-suisse">
+    <div>
+      {/* <Hero>
+        <Subtitle></Subtitle>
+        <Title></Title>
+      </Hero> */}
       <div className="mt-[230px] lg:mt-[270px] px-[10px] lg:px-[20px] mb-[40px]">
         <div className="text-[21px] mb-3 lg:mb-5">Luctus vitae.</div>
         <div className="text-[36px] lg:text-[84px] leading-[39px] lg:leading-[92px] w-4/5">
           Utrum ut placerat nec, varius sit amet lacus.
         </div>
       </div>
+
+      {/* <Slider>
+        <Slide></Slide>
+        <Slide></Slide>
+      </Slider> */}
       <div className="flex overflow-auto gap-5 lg:gap-10 h-[776px]">
         <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0"></div>
         <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0"></div>
       </div>
+
+      {/* <Highlight>
+        <Heading></Heading>
+        <Description></Description>
+      </Highlight> */}
       <div className="mx-[10px] lg:mx-auto lg:w-3/6 mt-[100px] mb-[40px] lg:mb-[100px]">
         <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] text-center mb-[40px]">
           Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae.
@@ -29,6 +43,19 @@ export default function Home() {
         </div>
       </div>
 
+      {/* <Grid>
+        <Column>
+          <Item />
+          <Item />
+        </Column>
+        <Column>
+          <Item />
+        </Column>
+        <Column>
+          <Item />
+          <Item />
+        </Column>
+      </Grid> */}
       <div className="flex gap-5 lg:gap-10 h-[620px] overflow-auto mx-0 lg:mx-[20px] mb-[100px]">
         <div className="flex gap-5 lg:gap-10 flex-row lg:flex-col flex-1">
           <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto"></div>
@@ -43,6 +70,23 @@ export default function Home() {
         </div>
       </div>
 
+      {/* <Content>
+        <Info>
+          <Info.Row>
+            <Info.Title></Info.Title>
+            <Info.Description></Info.Description>
+          </Info.Row>
+          <Info.Row>
+            <Info.Title></Info.Title>
+            <Info.Description></Info.Description>
+
+          </Info.Row>
+        </Info>
+
+        <Footer>
+
+        </Footer>
+      </Content> */}
       <div className="bg-black text-white lg:px-[20px]">
         <div className="flex gap-10 overflow-auto flex-col pt-[100px]">
           <div className="flex gap-[35px] lg:gap-0 flex-col lg:flex-row mx-[10px] lg:mx-0">
