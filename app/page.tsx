@@ -1,35 +1,39 @@
+import { Column } from "./components/Column";
+import { Content } from "./components/Content";
+import { Description } from "./components/Description";
+import { Grid } from "./components/Grid";
+import { Heading } from "./components/Heading";
+import { Hero } from "./components/Hero";
+import { Highlight } from "./components/Highlight";
+import { Info } from "./components/Info";
+import { InfoHeader } from "./components/InfoHeader";
+import { InfoTop } from "./components/InfoTop";
+import { Item } from "./components/Item";
+import { MainDescription } from "./components/MainDescription";
+import { Slide } from "./components/Slide";
+import { Slider } from "./components/Slider";
+import { Subtitle } from "./components/Subtitle";
+import { Title } from "./components/Title";
+
 export default function Home() {
   return (
     <div>
-      {/* <Hero>
-        <Subtitle></Subtitle>
-        <Title></Title>
-      </Hero> */}
-      <div className="mt-[230px] lg:mt-[270px] px-[10px] lg:px-[20px] mb-[40px]">
-        <div className="text-[21px] mb-3 lg:mb-5">Luctus vitae.</div>
-        <div className="text-[36px] lg:text-[84px] leading-[39px] lg:leading-[92px] w-4/5">
-          Utrum ut placerat nec, varius sit amet lacus.
-        </div>
-      </div>
+      <Hero>
+        <Subtitle>Luctus vitae.</Subtitle>
+        <Title>Utrum ut placerat nec, varius sit amet lacus.</Title>
+      </Hero>
 
-      {/* <Slider>
-        <Slide></Slide>
-        <Slide></Slide>
-      </Slider> */}
-      <div className="flex overflow-auto gap-5 lg:gap-10 h-[776px]">
-        <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0"></div>
-        <div className="bg-cold-blue w-[85vw] lg:w-auto lg:flex-1 shrink-0"></div>
-      </div>
+      <Slider>
+        <Slide />
+        <Slide />
+        {/* feel free to add more <Slide /> components here */}
+      </Slider>
 
-      {/* <Highlight>
-        <Heading></Heading>
-        <Description></Description>
-      </Highlight> */}
-      <div className="mx-[10px] lg:mx-auto lg:w-3/6 mt-[100px] mb-[40px] lg:mb-[100px]">
-        <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] text-center mb-[40px]">
+      <Highlight>
+        <Heading>
           Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae.
-        </div>
-        <div className="text-[21px] leading-[33px] text-left flex flex-col gap-8">
+        </Heading>
+        <Description>
           <div>
             Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae.
             Quisque maximus ante sapien, at pharetra sem sagittis eu. Maecenas
@@ -40,35 +44,23 @@ export default function Home() {
             sem turpis, rutrum ut placerat nec, varius sit amet lacus. Praesent
             sed viverra lorem.
           </div>
-        </div>
-      </div>
+        </Description>
+      </Highlight>
 
-      {/* <Grid>
+      <Grid>
+        {/* this list of items becomes h-scrollable on small viewports */}
         <Column>
-          <Item />
-          <Item />
+          <Item></Item>
+          <Item></Item>
         </Column>
         <Column>
-          <Item />
+          <Item></Item>
         </Column>
         <Column>
-          <Item />
-          <Item />
+          <Item></Item>
+          <Item></Item>
         </Column>
-      </Grid> */}
-      <div className="flex gap-5 lg:gap-10 h-[620px] overflow-auto mx-0 lg:mx-[20px] mb-[100px]">
-        <div className="flex gap-5 lg:gap-10 flex-row lg:flex-col flex-1">
-          <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto"></div>
-          <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto"></div>
-        </div>
-        <div className="flex gap-5 lg:gap-10 flex-row lg:flex-col flex-1">
-          <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto"></div>
-        </div>
-        <div className="flex gap-5 lg:gap-10 flex-row lg:flex-col flex-1">
-          <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto"></div>
-          <div className="bg-cold-blue flex-1 w-[85vw] lg:w-auto"></div>
-        </div>
-      </div>
+      </Grid>
 
       {/* <Content>
         <Info>
@@ -87,32 +79,31 @@ export default function Home() {
 
         </Footer>
       </Content> */}
-      <div className="bg-black text-white lg:px-[20px]">
-        <div className="flex gap-10 overflow-auto flex-col pt-[100px]">
-          <div className="flex gap-[35px] lg:gap-0 flex-col lg:flex-row mx-[10px] lg:mx-0">
-            <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] flex-1">
-              <div className="mr-[200px]">
-                Proin enim enim, tincidunt consequat sollicitudin.
-              </div>
-            </div>
-            <div className="flex-1 text-[21px] leading-[33px]">
+      <Content>
+        <Info>
+          <InfoTop>
+            <InfoHeader>
+              Proin enim enim, tincidunt consequat sollicitudin.
+            </InfoHeader>
+            <MainDescription>
               Aliquam vel orci pulvinar, porta velit in, volutpat neque. Nam vel
               leo nec nibh tempus congue. Morbi rhoncus bibendum enim sit amet
               pulvinar. Quisque lobortis commodo nunc, a rhoncus diam aliquam
               ac. Pellentesque non augue ullamcorper arcu facilisis bibendum.
               Nulla quis tincidunt turpis. Sed quis erat arcu.{" "}
-            </div>
-          </div>
+            </MainDescription>
+          </InfoTop>
+          {/* Note how we're changing flex direction on small viewports */}
           <div className="flex gap-10 flex-col-reverse lg:flex-col">
             <div className="flex gap-2 flex-col lg:flex-row flex-1 mx-[10px] lg:mx-0">
               <div className="flex-1 hidden lg:block"></div>
-              <div className="flex-1 text-[21px] leading-[33px]">
+              <MainDescription>
                 Phasellus gravida felis quis ex mattis, sed suscipit tellus
                 tincidunt. In imperdiet dapibus vehicula. In auctor nec nibh
                 vestibulum ornare. Morbi porta, enim hendrerit consectetur
                 ultrices, libero dui ultricies libero, vel rutrum sem magna quis
                 augue. Nulla quis magna at lorem sodales gravida.
-              </div>
+              </MainDescription>
             </div>
             <div className="flex gap-2 flex-row lg:flex-col">
               <div className="bg-cold-blue w-full h-[273px] lg:w-[55%] lg:h-[430px]"></div>
@@ -121,16 +112,18 @@ export default function Home() {
           <div className="flex gap-2 flex-col lg:flex-row justify-end">
             <div className="bg-cold-blue lg:bg-[#4425B3] h-[273px] lg:w-[55%] lg:h-[430px] lg:-mt-[110px]"></div>
           </div>
-        </div>
-        <div className="border-[0.5px] border-white my-[100px]"></div>
-        <div className="flex flex-col-reverse lg:flex-row gap-10 px-[10px] lg:px-0 pb-[100px]">
-          <div className="bg-cold-blue w-full h-[394px] lg:h-[440px]"></div>
-          <div className="bg-cold-blue w-full h-[394px] lg:h-[440px]"></div>
-          <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] ">
-            Proin enim enim, tincidunt consequat sollicitudin.
+        </Info>
+        <div>
+          <div className="border-[0.5px] border-white my-[100px]"></div>
+          <div className="flex flex-col-reverse lg:flex-row gap-10 px-[10px] lg:px-0 pb-[100px]">
+            <div className="bg-cold-blue w-full h-[394px] lg:h-[440px]"></div>
+            <div className="bg-cold-blue w-full h-[394px] lg:h-[440px]"></div>
+            <div className="text-[32px] lg:text-[42px] leading-[35px] lg:leading-[46px] ">
+              Proin enim enim, tincidunt consequat sollicitudin.
+            </div>
           </div>
         </div>
-      </div>
+      </Content>
     </div>
   );
 }

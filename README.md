@@ -19,7 +19,3 @@ The bottom part structure is a bit more tricky so I gave number to each sections
 ![](./public/images/brink-numbering.jpg)
 
 Note how item 3 is just a flex placeholder and that 4 and 5 switch flex direction. One could argue that CSS grid is better adapt for this by specifying grid-column-areas but personally I find simplicity of flexbox to allow for better flexibility.
-
-### Tailwind
-
-Decided
