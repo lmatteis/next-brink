@@ -62,23 +62,6 @@ export default function Home() {
         </Column>
       </Grid>
 
-      {/* <Content>
-        <Info>
-          <Info.Row>
-            <Info.Title></Info.Title>
-            <Info.Description></Info.Description>
-          </Info.Row>
-          <Info.Row>
-            <Info.Title></Info.Title>
-            <Info.Description></Info.Description>
-
-          </Info.Row>
-        </Info>
-
-        <Footer>
-
-        </Footer>
-      </Content> */}
       <Content>
         <Info>
           <InfoTop>
