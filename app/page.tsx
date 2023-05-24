@@ -99,9 +99,9 @@ export default function Home() {
         <div>
           <div className="border-[0.5px] border-white my-[100px]"></div>
           <div className="flex flex-col-reverse lg:flex-row gap-10 px-[10px] lg:px-0 pb-[100px]">
-            <div className="bg-cold-blue flex-1 h-[394px] lg:h-[440px]"></div>
-            <div className="bg-cold-blue flex-1 h-[394px] lg:h-[440px]"></div>
-            <div className="text-[32px] flex-1 lg:text-[42px] leading-[35px] lg:leading-[46px] ">
+            <div className="bg-cold-blue lg:flex-1 h-[394px] lg:h-[440px]"></div>
+            <div className="bg-cold-blue lg:flex-1 h-[394px] lg:h-[440px]"></div>
+            <div className="text-[32px] lg:flex-1 lg:text-[42px] leading-[35px] lg:leading-[46px] ">
               Proin enim enim, tincidunt consequat sollicitudin.
             </div>
           </div>
