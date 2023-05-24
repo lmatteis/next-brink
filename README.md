@@ -1,5 +1,3 @@
-## Assignment explanation
-
 ### Install
 
 `yarn` & `yarn dev`
@@ -14,8 +12,8 @@ At first I thought CSS grid would be needed since the structure felt quite diffe
 
 ### Numbering
 
-The bottom part structure is a bit more tricky so I gave number to each sections to see how the would change in mobile:
+The bottom part structure is a bit more tricky so I gave numbers to each section to see what would change in different viewports:
 
 ![](./public/images/brink-numbering.jpg)
 
-Note how item 3 is just a flex placeholder and that 4 and 5 switch flex direction. One could argue that CSS grid is better adapt for this by specifying grid-column-areas but personally I find simplicity of flexbox to allow for better flexibility.
+Note how item 3 is just a flex placeholder and that 4 and 5 switch flex direction. One could argue that CSS grid is better adapt for this by specifying grid-column-areas but personally I find the simplicity of flexbox allows for easier understanding of the layout - it's just layered flexboxes instead of creating complex css grids.
